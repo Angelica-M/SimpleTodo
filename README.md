@@ -1,18 +1,18 @@
-# Project 1 - *Name of App Here*
+# Prework - *Simple Todo*
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**Simple Todo** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by: **Your Name Here**
+Submitted by: **Angelica Magnussen**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ] User can **view a list of todo items**
-* [ ] User can **successfully add and remove items** from the todo list
-* [ ] User's **list of items persisted** upon modification and and retrieved properly on app restart
+* [X] User can **view a list of todo items**
+* [X] User can **successfully add and remove items** from the todo list
+* [X] User's **list of items persisted** upon modification and retrieved properly on app restart
 
 The following **optional** features are implemented:
 
@@ -20,7 +20,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] User can **view a list of removed todo items**
+* [ ] User can **unremove removed todo items**
+* [ ] User can **create multiple todo lists**
+* [ ] User can **rename their todo lists**
 
 ## Video Walkthrough
 
@@ -32,11 +35,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+While building the app, I faced a challenge regarding the *readLines* and *writeLines* function. To correct this issue, the FileUtils Import statement **import android.os.FileUtils;** was replaced with **import org.apache.commons.io.FileUtils;** at the top of the MainActivity.java file.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Angelica Magnussen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
